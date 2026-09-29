@@ -1,0 +1,15 @@
+slug,name,year,paradigm,language_scope,environment_binding,artifact_link,availability,slot,in_schesch_harness,verified,source
+gitmerge_ort,Git Merge (ort),TO VERIFY,line-based,any,Git version (pin),https://git-scm.com,public,control,yes,partial,Schesch 2024 §2.3.1 (ort added 2021; default year disputed - see paper note)
+hires_merge,Hires-Merge,TO VERIFY,character-level,any,,https://github.com/paulaltin/git-hires-merge,public,unassigned,yes,partial,Schesch 2024 §2.3.1
+spork,Spork,2023,structured (tree; 3DM-Merge + GumTree),Java,JDK (Java 17 per Alex - unverified); Spoon dependency,https://github.com/ASSERT-KTH/spork,public (bugs unfixed per Schesch),version-bound,yes,partial,Larsén et al. TSE 49(1) 2023; Schesch §7.4
+jdime,JDime,2014,structured with line-based first pass (auto-tuning),Java (incomplete Java 8 syntax per Schesch),JDK 8 per proposal,TO VERIFY,public but buggy per Schesch,version-bound (deliberately old),no,partial,Leßenich/Apel/Lengauer 2014; Schesch §9.1
+intellimerge,IntelliMerge,2019,graph-based (program element graphs),Java,TO VERIFY,https://github.com/Symbolk/IntelliMerge,public,scope-limited,yes,partial,Shen et al. OOPSLA 2019; harness README
+mergiraf,Mergiraf,TO VERIFY,structured (generic),many languages,TO VERIFY,https://mergiraf.org,public,unassigned (free extra arm),yes,partial,Harness README; proposal §2
+lastmerge,LastMerge,2025,structured (generic),many languages,TO VERIFY,TO VERIFY (paper: https://arxiv.org/pdf/2507.19687),TO VERIFY,unassigned,no,no,Duarte/Borba/Cavalcanti 2025 via proposal
+imports_ivn,Imports / Version-Numbers / IVn (plume-lib merging),2024,line-based + import/version fix-ups,Java (+ build files),,https://github.com/plume-lib/merging,public,ablation reference,yes,partial,Schesch §2.3.3
+gmerge,GMerge,TO VERIFY,LLM-prompted,Java? TO VERIFY,GPT-3 or GPT-J (unresolved),TO VERIFY (paper: https://arxiv.org/pdf/2111.11904),not public per proposal,model-bound,no,no,arXiv 2111.11904 via proposal
+mergegen,MergeGen,TO VERIFY,learned generative (CodeT5-small per Alex),TO VERIFY,CodeT5-small per Alex (unverified),TO VERIFY,TO VERIFY,model-bound candidate,no,no,Alex's note via proposal
+plain_llm,Plain modern LLM baseline,n/a,LLM-prompted baseline,any,model + version + date + settings to pin (D11),n/a,API,model-bound baseline,no,n/a,proposal §6
+deepmerge,DeepMerge,TO VERIFY,learned,Java? TO VERIFY,,not public,not public,excluded,no,partial,Schesch §9.1
+mergebert,MergeBERT,2022,learned (classifies merge patterns),multi-language TO VERIFY,,not public,not public,excluded,no,partial,Svyatkovskiy et al. FSE 2022; Schesch §9.1
+automerge,AutoMerge,TO VERIFY,structured (version space algebra),Java,,not public,not public,excluded,no,partial,Schesch §9.1

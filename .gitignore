@@ -1,0 +1,16 @@
+# big / regenerable
+external/
+data/external/*
+data/interim/*
+data/eras/*
+data/results/*
+logs/runs/*
+analysis/figures/*
+!**/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+*.egg-info/
+resources/tokens
